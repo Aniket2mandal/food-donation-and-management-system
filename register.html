@@ -1,0 +1,47 @@
+<!-- register.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donate</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body style="background-color: #06C167;">
+    <div class="container">
+        <div class="regform">
+            <!-- Set action attribute to register.php -->
+            <form action="reg.php" method="post">
+                <p class="logo">Donate <b style="color:#06C167;">Dine</b></p>
+                <p id="heading">Register</p>
+                <div class="input">
+                    <input type="text" placeholder="Full Name" name="fullname" required />
+                </div>
+                <div class="input">
+                    <input type="email" placeholder="Email Address" name="email" required />
+                </div>
+                <div class="input">
+                    <input type="password" placeholder="Password" name="password" id="password" required />
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+                <div class="btn">
+                    <button type="submit" name="register">Register</button>
+                </div>
+                <div class="signin-up">
+                    <p>Already have an account? <a href="login.html">Sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

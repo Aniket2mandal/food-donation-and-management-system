@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    background-color: #06C167;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.regform {
+    width: 430px;
+    background-color: white;
+    margin: 20px auto;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.regform p#heading {
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+}
+
+.regform .input input {
+    width: 100%;
+    font-size: 20px;
+    border: .5px solid #63707E;
+    border-radius: 6px;
+    padding: 14px 15px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+    color: black;
+}
+
+.regform button {
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: .5px solid black;
+    cursor: pointer;
+}
+
+.regform button:hover {
+    color: #eeeeee;
+    transform: scale(.98);
+}
+
+.regform .signin-up {
+    font-size: 20px;
+    text-align: center;
+}
+
+.regform .signin-up a {
+    color: #06C167;
+    text-decoration: none;
+}
+
+.regform .signin-up a:hover {
+    text-decoration: underline;
+}
